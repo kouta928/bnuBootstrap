@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.navegacao{
+    height: 60px;
+    border: 2px solid white;
+}
+
+.banner{
+    height: 300px;
+    border: 2px solid white;
+    padding: 120px;
+}
+
+.titulo{
+    height: 40px;
+    border: 2px solid white;
+}
+
+.itens{
+    height: 150px;
+    border: 2px solid white;
+    padding: 50px;
+}
+
+.itemGrande .row{
+    padding: 100px 0;
+    border: 2px solid white;
+}
+
+div{
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 5px;
+}
