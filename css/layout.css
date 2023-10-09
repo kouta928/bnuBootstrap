@@ -1,29 +1,75 @@
 .navegacao{
     height: 60px;
-    border: 2px solid black;
+}
+
+.cabecalho{
+    background-color: rgb(255, 205, 210);
+    padding-left: 15%;
+    padding-right: 8%;
+}
+
+.cabecalhoLink{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 .banner{
-    height: 300px;
-    border: 2px solid black;
-    padding: 120px;
+    height: 90px;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+
+.banner2{
+    height: 150px;
+    /* border: 2px solid black; */
+    padding: 10px;
 }
 
 .titulo{
     height: 40px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    color: white;
+    font-size: 0.9em;
+    padding: 4px;
 }
+
+.titulo-grande{
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.emprego{
+    background-color: rgb(1, 87, 155);
+}
+
+.curriculo{
+    background-color: #E65100;
+}
+
+.classificado{
+    background-color: #004D40;
+}
+
+.destaque{
+    background-color: #FF9800;
+}
+
+.gratis{
+    background-color: #4CAF50;
+}
+
 
 .itens{
-    height: 150px;
-    border: 2px solid black;
-    padding: 50px;
+    /* height: 150px; */
+    /* border: 2px solid black; */
+    /* padding: 50px; */
 }
 
-.itemGrande .row{
-    padding: 100px 0;
-    border: 2px solid black;
-}
 
 /* div{
     color: black;
