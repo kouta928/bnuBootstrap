@@ -1,4 +1,4 @@
-.navegacao{
+/* .navegacao{
     height: 60px;
 }
 
@@ -16,4 +16,13 @@
 
 .itemGrande .row{
     padding: 100px 0;
+} */
+
+.cabecalho{
+    background-color: rgb(255, 205, 210);
+}
+
+.cabecalhoLink{
+    font-weight: bold;
+    font-size: 1.2em;
 }

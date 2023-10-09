@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <!-- inicio componente1 -->      
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Navbar</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-                
-                <!-- fim componente1 -->
-            </div>
-        </div>
+  <!-- navbar começo-->
+    <nav class="navbar sticky-top cabecalho">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" height="110px"></a>
+        
+        <nav class="navbar navbar-expand-lg cabecalho">
+          <div class="container-fluid">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item cabecalhoLink">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item cabecalhoLink">
+                  <a class="nav-link" href="#">Empregos</a>
+                </li>
+                <li class="nav-item cabecalhoLink">
+                  <a class="nav-link" href="#">Currículos</a>
+                </li>
+                <li class="nav-item cabecalhoLink">
+                  <a class="nav-link" href="#">Classificados</a>
+                </li>
+              </ul>
+          </div>
+        </nav>
+        
+      </div>
+
+    </nav>
+<!-- navbar fim -->
+
+  <div class="container">
+    <!-- começo dos componentes -->
+
+    <div class="row">
+      <div class="banner col-12 text-center">carousel with image gallery</div>
     </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <div class="row">
+      <div class="col-sm-12 col-md-3 itens text-center">item</div>
+      <div class="col-sm-12 col-md-3 itens text-center">item</div>
+      <div class="col-sm-12 col-md-3 itens text-center">item</div>
+      <div class="col-sm-12 col-md-3 itens text-center">item</div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 titulo text-center"></div>
+      <div class="col-sm-12 col-md-6 titulo text-center"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 itens text-center">Footer</div>
+    </div>
+
+
+
+
+
+
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

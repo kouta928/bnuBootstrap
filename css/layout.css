@@ -1,37 +1,33 @@
-body{
-    background-color: black;
-}
-
 .navegacao{
     height: 60px;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .banner{
     height: 300px;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 120px;
 }
 
 .titulo{
     height: 40px;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .itens{
     height: 150px;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 50px;
 }
 
 .itemGrande .row{
     padding: 100px 0;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
-div{
-    color: white;
+/* div{
+    color: black;
     font-size: 1.2em;
     text-transform: uppercase;
     padding: 5px;
-}
+} */
