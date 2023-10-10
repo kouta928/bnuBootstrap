@@ -8,6 +8,12 @@
     padding-right: 8%;
 }
 
+.rodape{
+    background-color: #E53935;
+    width: 100vw;
+    color: white;
+}
+
 .cabecalhoLink{
     font-size: 1.2em;
     text-transform: uppercase;
@@ -16,7 +22,6 @@
 .banner{
     height: 90px;
     /* border: 2px solid black; */
-    padding: 10px;
 }
 
 .banner2{
@@ -30,7 +35,6 @@
     border: 3px solid white;
     color: white;
     font-size: 0.9em;
-    padding: 4px;
 }
 
 .titulo-grande{
@@ -39,7 +43,6 @@
     font-size: 2em;
     font-weight: bold;
     color: white;
-    padding: 10px;
 }
 
 .emprego{
@@ -86,3 +89,14 @@
     color: white;
     margin-bottom: 10px;
 }
+
+.rodapeItem{
+    color: white;
+    text-decoration: none;
+}
+
+.posRodape{
+    height: 7vh;
+    background-color: #D73935;
+}
+
