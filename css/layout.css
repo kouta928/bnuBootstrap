@@ -4,20 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 904px){
-    .cabecalho{
-        max-height: 15vh;
-    }
-    .cabecalhoLink{
-        font-size: 12px;
-        max-height: 15px;
-    }
-}
-
-.cabecalho{
+.cabecalho1{
     background-color: rgb(255, 205, 210);
     padding-left: 15%;
     padding-right: 8%;
+}
+
+.logo{
+    height: 110px;
 }
 
 .cabecalhoLink{
@@ -172,4 +166,16 @@
 .linkEmprego{
     text-decoration: none;
     color: #549BE5;
+}
+
+@media (max-width: 990px){
+    .cabecalhoLink{
+        display: none;
+        font-size: .4em;
+    }
+
+    .logo{
+        height: 20vh;
+        margin: 0 1em;
+    }
 }
